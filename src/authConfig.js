@@ -16,7 +16,7 @@ export const msalConfig = {
     clientId: "66ab64cc-8d33-496b-9f00-de86e434c718",
     authority:
       "https://login.microsoftonline.com/7a3dd99d-c839-4a31-8d02-c9442c49d1c3",
-    redirectUri: "http://localhost:5173",
+    redirectUri: "https://azure-ad-frontend.vercel.app/",
   },
   cache: {
     cacheLocation: "sessionStorage", // This configures where your cache will be stored
